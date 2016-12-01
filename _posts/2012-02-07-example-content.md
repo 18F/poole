@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Example content
+category: research
+tags: [github, github-pages, jekyll]
 ---
 
 
