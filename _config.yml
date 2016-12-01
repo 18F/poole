@@ -10,6 +10,7 @@ relative_permalinks: false
 collections:
   research:
     output: true
+    permalink: /research/:path/
 
 # Setup
 title:            Doc site
