@@ -1,11 +1,12 @@
 ---
 layout: default
+---
+
 {% assign category = site.research | where: "slug", post.category %}
 {% assign category = category[0] %}
 {% if category %}
     {% capture category_content %}<a class="label" href="{{ category.url }}">{{ category.name }}</a>{% endcapture %}
 {% endif %}
----
 
 <div class="post">
   <h1 class="post-title">{{ page.title }}</h1>
