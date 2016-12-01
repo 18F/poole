@@ -6,6 +6,12 @@ highlighter:      pygments
 permalink:        pretty
 relative_permalinks: false
 
+# Collections
+collections:
+  research:
+    output: true
+    permalink: /blog/research/:name/
+
 # Setup
 title:            Doc site
 tagline:          'Test idea'
