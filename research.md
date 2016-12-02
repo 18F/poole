@@ -17,9 +17,8 @@ title: Research
     </h2>
 
     <span class="post-date">{{ post.date | date_to_string }}</span>
-    <p><a href="{{ site.baseurl }}{{ post.url }}">Read more</a></p>
 
-    {{ post.content | strip_html | truncatewords: 50 }}
+    {{ post.content | strip_html | truncatewords: 50 }} <a href="{{ site.baseurl }}{{ post.url }}">Read more</a>
   </div>
   {% endfor %}
 </div>
