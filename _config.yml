@@ -7,10 +7,10 @@ permalink:        pretty
 relative_permalinks: false
 
 # Collections
-collections:
-  research:
-    output: true
-    permalink: /research/:path/
+# collections:
+#  research:
+#    output: true
+#    permalink: /research/:path/
 
 # Setup
 title:            Doc site
