@@ -258,4 +258,5 @@ a.sidebar-nav-item:focus {
   margin-top: -1rem;
   margin-bottom: 3rem;
   font-size: 2rem;
+  font-weight: normal;
 }

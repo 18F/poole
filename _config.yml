@@ -13,7 +13,7 @@ relative_permalinks: false
 #    permalink: /research/:path/
 
 # Setup
-title:            Doc site
+title:            Design docs
 tagline:          'Test idea'
 description:      'Testing out a simple site for design documentation.'
 url:              https://18f.github.io/test-docsite/
