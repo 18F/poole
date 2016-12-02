@@ -1,12 +1,15 @@
 ---
 layout: default
+tagname: research
 title: Research
 ---
 
+<h1>{{ page.title }}
+
 <div class="posts">
-  {% for post in site.tags.research %}
+  {% for post in site.tags.{{ page.tagname }} %}
   <div class="post">
-    <h1 class="post-title">
+    <h2 class="post-title">
       <a href="{{ site.baseurl }}{{ post.url }}">
         {{ post.title }}
       </a>
