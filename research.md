@@ -1,19 +1,18 @@
 ---
 layout: default
-tagname: research
 title: Research
 ---
 
 <h1>{{ post.title }}
 
 <div class="posts">
-  {% for post in site.tags.{{ post.tagname }} %}
+  {% for post in site.tags.research %}
   <div class="post">
     <h2 class="post-title">
       <a href="{{ site.baseurl }}{{ post.url }}">
         {{ post.title }}
       </a>
-    </h1>
+    </h2>
 
     <span class="post-date">{{ post.date | date_to_string }}</span>
 
