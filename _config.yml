@@ -16,8 +16,8 @@ relative_permalinks: false
 title:            Design docs
 tagline:          'Test idea'
 description:      'Testing out a simple site for design documentation.'
-url:              https://18f.github.io/test-docsite/
-baseurl:          https://18f.github.io/test-docsite/
+url:              https://18f.github.io/test-docsite
+baseurl:          https://18f.github.io/test-docsite
 
 author:
   name:           'Mark Otto'
