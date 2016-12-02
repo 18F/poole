@@ -22,6 +22,8 @@ This project uses GitHub pages and is set up so that you can edit files locally,
 
 **Posts** are written in [markdown](https://help.github.com/articles/basic-writing-and-formatting-syntax/) and found in the `_posts` directory. You’ll see there are a number of dummy posts already there. Notice the file naming convention defines the posts’ publish date. Remove of edit the posts as you’d like.
 
+The post named `_posts/2012-02-07-example-content.md` shows a variety of text formatting options.
+
 If you open a post in your text editor, you’ll see some information near the top that’s sectioned off. This is the **YAML front matter. This is metadata about your post. You define the post’s title there.
 
 Some posts include **tags** in the YAML front matter. In this example, a few posts have “research” as a tag, which allows those posts to be included on the Research page (see research.md).
