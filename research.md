@@ -3,7 +3,9 @@ layout: default
 title: Research
 ---
 
-<h1>{{ page.title }}</h1>
+<div class="page-header"
+  <h1>{{ page.title }}</h1>
+</div>
 
 <div class="posts">
   {% for post in site.tags.research %}
@@ -16,7 +18,7 @@ title: Research
 
     <span class="post-date">{{ post.date | date_to_string }}</span>
 
-    {{ post.excerpt }}
+    {{ post.content | strip_html | truncatewords: 50 }}
   </div>
   {% endfor %}
 </div>
