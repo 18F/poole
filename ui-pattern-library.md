@@ -1,7 +1,6 @@
 ---
 layout: page
-title: Experience principles
-tags: [research]
+title: UI pattern library
 ---
 
-Define Experience principles here.
+This page could either be for talking about the pattern library, linking out to the technical library. Or it could contain the pattern library itself.
