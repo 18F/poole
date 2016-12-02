@@ -4,7 +4,7 @@ title: Research
 ---
 
 <div class="posts">
-  {% for post in paginator.posts %}
+  {% for post in site.tags.research %}
   <div class="post">
     <h1 class="post-title">
       <a href="{{ site.baseurl }}{{ post.url }}">
