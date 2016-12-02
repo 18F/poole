@@ -254,11 +254,11 @@ a.sidebar-nav-item:focus {
 
 /* U.S. Web Design Standards colors */
 .theme-base-0g .sidebar {
-  background-color: #112e51;
+  background-color: #323a45;
 }
 .theme-base-0g .content a,
 .theme-base-0g .related-posts li a:hover {
-  color: #112e51;
+  color: #205493;
 }
 
 .tagpage-header h1 {
