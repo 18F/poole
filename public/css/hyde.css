@@ -56,7 +56,7 @@ html {
 .sidebar {
   text-align: center;
   padding: 2rem 1rem;
-  color: #dce4ef;
+  color: #d6d7d9;
   background-color: #202020;
 }
 @media (min-width: 48em) {
@@ -258,7 +258,7 @@ a.sidebar-nav-item:focus {
 }
 .theme-base-0g .content a,
 .theme-base-0g .related-posts li a:hover {
-  color: #0071bc;
+  color: #112e51;
 }
 
 .tagpage-header h1 {
