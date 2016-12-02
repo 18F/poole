@@ -3,7 +3,7 @@ layout: default
 title: Research
 ---
 
-<div class="page-header"
+<div class="tagpage-header"
   <h1>{{ page.title }}</h1>
 </div>
 
