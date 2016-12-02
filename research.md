@@ -4,10 +4,10 @@ tagname: research
 title: Research
 ---
 
-<h1>{{ page.title }}
+<h1>{{ title }}
 
 <div class="posts">
-  {% for post in site.tags.{{ page.tagname }} %}
+  {% for post in site.tags.{{ tagname }} %}
   <div class="post">
     <h2 class="post-title">
       <a href="{{ site.baseurl }}{{ post.url }}">
